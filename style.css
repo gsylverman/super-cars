@@ -1,0 +1,37 @@
+
+/*body { 
+background: url(bmw.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+*/                    /*merge si cel comentat mai sus*/
+
+body{
+	background: url(bmw.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+html{
+	height: 100%;
+}
+
+
+
+.ccc{
+	text-align: center;
+	width:50%;
+	margin: 0 auto;
+	padding-top: 25%;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+}
+h1{
+	font-weight: 700;
+	font-size: 4em;
+}
+hr{
+	background-color: white;
+}
